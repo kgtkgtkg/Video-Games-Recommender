@@ -1,1 +1,3 @@
-# Individual Capstone Project for Data Analytics Immersive Course at General Assembly Singapore
+# General Assembly Singapore
+# Data Analytics Immersive - 001 / 2023
+# Individual Capstone Project
