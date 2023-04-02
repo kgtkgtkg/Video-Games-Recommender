@@ -17,10 +17,13 @@ st.set_page_config(page_title='Video Games Recommender', page_icon='🎮', layou
 # Set title of the app
 st.title('🎮 Video Games Recommender 🎮')
 st.subheader('A video games recommender system powered by User-Based Collaborative Filtering.')
-st.warning('Disclaimer: The loading time to receive game recommendations will take up to 5 minutes. This project is a work in progress. I will be adding more features to this app in the future. Stay tuned! 🚀')
+st.write('This is a video games recommender I built for my final project for the Data Analytics Immersive course at General Assembly (Singapore).')
+st.write('This is the first workable version. I hope to make improvements and add features to it in the future. 🚀')
+st.write('You can find the code for this project and this app on my GitHub repository [here](https://github.com/kgtkgtkg/GA-IndividualCapstone).')
+st.warning('NOTE: Please ensure that you have set your Steam account privacy settings to public before using the recommender.')
 
 # Set input widgets
-st.sidebar.subheader('Please ensure that you have set your Steam account privacy settings to public.')
+st.sidebar.warning('NOTE: Please ensure that you have set your Steam account privacy settings to public.')
 userinput = st.sidebar.text_input(label='Please enter your 17-digit unique Steam ID:', max_chars=17)
 
 
@@ -36,8 +39,8 @@ hide_table_row_index = """
 st.markdown(hide_table_row_index, unsafe_allow_html=True)
 # End of hide index column syntax
 
-## Caching user account data in the list for 24 hours
-@st.cache_data(ttl = 60*60*24)
+## Caching user account data in the list for 7 days.
+@st.cache_data(ttl = 60*60*24*7)
 def load_data():
     userids_df = pd.read_excel("steamids.xlsx") # Read in the list of saved Steam IDs.
     userids_df["user_steamid"] = userids_df["user_steamid"].astype(str) # Then convert the Steam IDs to string.
