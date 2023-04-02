@@ -1,7 +1,6 @@
 requests
 pandas
 numpy
-time
 random
 glob
 os
