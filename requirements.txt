@@ -1,9 +1,6 @@
 requests
 pandas
 numpy
-random
-glob
-os
 plotly
 matplotlib
 gdown
