@@ -60,7 +60,7 @@ Please refer to the file 4.2.GameBasedRecommender.ipynb for full commentary and 
 
 **5. Recommender App** <br>
 This is a deployment of the User-Based Recommender on Streamlit.
-Please visit this [link](https://kgtkgtkg-video-games-re-5-userbasedrecommender-streamlit-a9z9zu.streamlit.app/)
+Please visit this [link](https://kgtkgtkg-video-games-re-5-userbasedrecommender-streamlit-a9z9zu.streamlit.app/) to view the app.
 
 ## **Conclusion** <br>
 Evidenced by the outputs of the recommenders, the application of the methodology was successful. However, there are several limitations to this project. <br>
