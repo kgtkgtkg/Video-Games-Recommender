@@ -32,9 +32,9 @@ For clarity, each of the variations will still predict game preferences, the dif
 
 ## **Application Summary** <br>
 **1. Data Collection** <br>
-steamids.xlsx - A list of users and their account IDs (Steam ID) was manually compiled. The IDs were mainly extracted from the friends list of my own Steam account. <br>
+*steamids.xlsx* - A list of users and their account IDs (Steam ID) was manually compiled. The IDs were mainly extracted from the friends list of my own Steam account. <br>
 
-data/raw_dataset.xlsx - The account data then was extracted via the Steamworks API, with reference to the compiled list of account IDs. An initial 53 users and their account data were compiled to form the raw dataset. <br>
+*data/raw_dataset.xlsx* - The account data then was extracted via the Steamworks API, with reference to the compiled list of account IDs. An initial 53 users and their account data were compiled to form the raw dataset. <br>
 
 Full commentary and details of the data collection can be found in the file 1.DataCollection.ipynb. <br>
 
