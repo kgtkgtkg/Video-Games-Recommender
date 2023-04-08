@@ -59,8 +59,9 @@ This function recommends games based on item-based collaborative filtering. <br>
 Please refer to the file 4.2.GameBasedRecommender.ipynb for full commentary and details. <br>
 
 **5. Recommender App** <br>
-This is a deployment of the User-Based Recommender on Streamlit.
-Please visit this [link](https://kgtkgtkg-video-games-re-5-userbasedrecommender-streamlit-a9z9zu.streamlit.app/) to view the app.
+This is a deployment of the User-Based Recommender on Streamlit. <br>
+Please visit this [link](https://kgtkgtkg-video-games-re-5-userbasedrecommender-streamlit-a9z9zu.streamlit.app/) to view the app. <br>
+Please refer to the file 5.UserBasedRecommender-Streamlit.py for the app script. <br>
 
 ### **Conclusion** <br>
 Evidenced by the outputs of the recommenders, the application of the methodology was successful. However, there are several limitations to this project. <br>
@@ -91,6 +92,6 @@ This project was done as part the Data Analytics Immersive course with General A
 You can connect with me here on GitHub, [LinkedIn](https://www.linkedin.com/in/tankaiguan/), or [Steam](https://steamcommunity.com/profiles/76561198010430483/).
 
 ### **Folders** <br>
-data - Dataset used at different stages of the application. <br>
+data - Datasets saved and used at different stages of the application. <br>
 matrices - Matrices constructed for the recommender. <br>
 recommenderresults - Outputs from the recommender functions. <br>
