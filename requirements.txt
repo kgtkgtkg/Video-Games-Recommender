@@ -1,5 +1,0 @@
-requests
-pandas
-numpy
-openpyxl
-scikit-learn
