@@ -91,6 +91,6 @@ This project was done as part the Data Analytics Immersive course with General A
 You can connect with me here on GitHub, [LinkedIn](https://www.linkedin.com/in/tankaiguan/), or [Steam](https://steamcommunity.com/profiles/76561198010430483/).
 
 ### **Folders** <br>
-data - Dataset used at different stages of the application.
-matrices - Matrices constructed for the recommender.
-recommenderresults - Outputs from the recommender functions.
+data - Dataset used at different stages of the application. <br>
+matrices - Matrices constructed for the recommender. <br>
+recommenderresults - Outputs from the recommender functions. <br>
