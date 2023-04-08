@@ -1,5 +1,5 @@
-# Video Games Recommender (Steam Games)
-## Introduction <br>
+## Video Games Recommender (Steam Games)
+### Introduction <br>
 **Background & Problem Statement** <br>
 Video games have been a popular form of entertainment for many years. It is a large and competitive industry worth billions, with a constantly evolving market. There are a wide variety of games being released every year, and it is expected that it would continue to grow. <br>
 
@@ -30,7 +30,7 @@ The technique applied is Collaborative Filtering, with 2 variations: <br>
 Cosine Similarity is applied to calculate the similarity scores between users and between games. <br>
 For clarity, each of the variations will still predict game preferences, the difference is in how it predicts. The predictions would then allow for user-specific video game recommendations. <br>
 
-## **Application Summary** <br>
+### **Application Summary** <br>
 **1. Data Collection** <br>
 *steamids.xlsx* - A list of users and their account IDs (Steam ID) was manually compiled. The IDs were mainly extracted from the friends list of my own Steam account. <br>
 
@@ -62,7 +62,7 @@ Please refer to the file 4.2.GameBasedRecommender.ipynb for full commentary and 
 This is a deployment of the User-Based Recommender on Streamlit.
 Please visit this [link](https://kgtkgtkg-video-games-re-5-userbasedrecommender-streamlit-a9z9zu.streamlit.app/) to view the app.
 
-## **Conclusion** <br>
+### **Conclusion** <br>
 Evidenced by the outputs of the recommenders, the application of the methodology was successful. However, there are several limitations to this project. <br>
 
 **1. Model Evaluation** <br>
@@ -83,9 +83,14 @@ One workaround to this is to construct a Content-Based Filter, and integrate it 
 **4. "Wisdom of the crowd"** <br>
 The game recommendations are only as good as the data within the group. With Collaborative Filtering, you are likely to be recommended a game you would prefer, but you are limited to the games that other users in the group have played, and limited even further to the games of users who are most similar to you. From a business perspective, while the goal is to continually recommend games that users would purchase, the group must have played sufficient games to keep recommending to each other. <br>
 
-Attempts have already been made to account for a growing dataset on the deployed recommender app. However, given that this was a course project, I will not be maintaining a database or location to grow the list of Steam IDs. <br>
+I have included additional features on the deployed python script to account for a growing list of Steam IDs on the recommender app. However, given that this was a course project, I will not be maintaining a database or location for the Steam IDs. <br>
 
-## **Closing Note** <br>
+### **Closing Note** <br>
 This project was done as part the Data Analytics Immersive course with General Assembly (Singapore). The course culminated with an Individual Capstone project, and as part of my learning, I wanted to do something related to my favourite pastime. Please feel free to reach out to me for feedback or suggestions on how I can improve. <br>
 
 You can connect with me here on GitHub, [LinkedIn](https://www.linkedin.com/in/tankaiguan/), or [Steam](https://steamcommunity.com/profiles/76561198010430483/).
+
+### **Folders** <br>
+data - Dataset used at different stages of the application.
+matrices - Matrices constructed for the recommender.
+recommenderresults - Outputs from the recommender functions.
