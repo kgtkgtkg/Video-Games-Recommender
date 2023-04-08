@@ -93,10 +93,10 @@ def ub_recommender(steamid, n=5):
         # The next step is to get the data of the new user, then add it to the group's dataset that is cached.
         
         # This is my personal API key.
-        api_key = "?key=7364D56DBC085B6B0AB3DAD90F5A5290"
+        api_key = "7364D56DBC085B6B0AB3DAD90F5A5290"
 
         # The following will collect the new user account data from the Steam API.
-        url = f"https://api.steampowered.com/IPlayerService/GetOwnedGames/v1/{api_key}&steamid={steamid}&include_appinfo=true&include_played_free_games=true"
+        url = f"https://api.steampowered.com/IPlayerService/GetOwnedGames/v1/?key={api_key}&steamid={steamid}&include_appinfo=true&include_played_free_games=true"
         user_data_request = requests.get(url)
         user_data_json = user_data_request.json()
         try:
