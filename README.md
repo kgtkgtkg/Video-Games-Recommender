@@ -89,7 +89,8 @@ This project was done as part the Data Analytics Immersive course with General A
 
 You can connect with me here on GitHub, [LinkedIn](https://www.linkedin.com/in/tankaiguan/), or [Steam](https://steamcommunity.com/profiles/76561198010430483/).
 
-## **Folders** <br>
+## **Files and Folders** <br>
 data - Datasets saved and used at different stages of the application. <br>
 matrices - Matrices constructed for the recommender. <br>
 recommenderresults - Outputs from the recommender functions. <br>
+UserEDA.twbx - A Tableau packaged workbook containing some basic visualizations on the datasets. The visualizations on this workbook is from data of all 53 user accounts as of 01 April 2023.
