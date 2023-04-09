@@ -88,7 +88,7 @@ It should be noted that in the deployment script, I included all 53 users from t
 Also, I have included additional features on the deployment script to account for a growing list of Steam IDs on the recommender app. This is so that each time the app is used, it adds the input Steam ID to the list, thus growing the dataset and strengthening the recommender. However, given that this was a course project, I will not be maintaining an online database or online file to collect and save the Steam IDs. <br>
 
 ## **Closing Note** <br>
-This project was done as part the Data Analytics Immersive course with General Assembly (Singapore). The course culminated with an individual capstone project, and as part of my learning, I wanted to do something related to my favourite pastime.
+This project was done as part the Data Analytics Immersive course with General Assembly (Singapore). The course culminated with an individual capstone project, and as part of my learning, I wanted to do something related to my favourite pastime. <br>
 
 Please feel free to reach out to me if you have feedback or suggestions on how I can improve. <br> 
 You can connect with me here on GitHub, [LinkedIn](https://www.linkedin.com/in/tankaiguan/), or [Steam](https://steamcommunity.com/profiles/76561198010430483/).
