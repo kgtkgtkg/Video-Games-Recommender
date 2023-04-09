@@ -15,7 +15,8 @@ st.set_page_config(page_title='Video Games Recommender', page_icon='🎮', layou
 st.title('🎮 Video Games Recommender 🎮')
 st.subheader('A video games recommender system powered by User-Based Collaborative Filtering.')
 st.write('This is a video games recommender I built for my final project for the Data Analytics Immersive course at General Assembly (Singapore).')
-st.write('You can find the code for this project and this app on my GitHub repository [here](https://github.com/kgtkgtkg/GA-IndividualCapstone). If you have any comments on how I can improve, please let me know! 🙏🚀')
+st.write('You can find the code for this project and this app on my GitHub repository [here](https://github.com/kgtkgtkg/Video-Games-Recommender). Please feel free to reach out to me if you have feedback or suggestions on how I can improve! 🙏🚀')
+st.info('The recommender may take a few minutes to load the first time you use it. Please be patient! 😊')
 st.warning('NOTE: Please ensure that you have set your Steam account privacy settings to public before using the recommender.')
 
 # Set input widgets
