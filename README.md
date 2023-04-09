@@ -82,12 +82,15 @@ One workaround to this is to construct a Content-Based Filter, and integrate it 
 **4. "Wisdom of the crowd"** <br>
 The game recommendations are only as good as the data within the group. With Collaborative Filtering, you are likely to be recommended a game you would prefer, but you are limited to the games that other users in the group have played, and limited even further to the games of users who are most similar to you. From a business perspective, while the goal is to continually recommend games that users would purchase, the group must have played sufficient games to keep recommending to each other. <br>
 
-I have included additional features on the deployed python script to account for a growing list of Steam IDs on the recommender app. However, given that this was a course project, I will not be maintaining an online database or online file for the Steam IDs. <br>
+**5. Other** <br>
+It should be noted that in the deployment script, I included all 53 users from the steamids.xlsx. Ultimately, the successful extraction of user account data via the Steamworks API is dependent on the account privacy settings of the user. Over time, if a user changes their privacy settings, then we will get varying datasets. <br>
+
+Also, I have included additional features on the deployment script to account for a growing list of Steam IDs on the recommender app. This is so that each time the app is used, it adds the input Steam ID to the list, thus growing the dataset and strengthening the recommender. However, given that this was a course project, I will not be maintaining an online database or online file to collect and save the Steam IDs. <br>
 
 ## **Closing Note** <br>
 This project was done as part the Data Analytics Immersive course with General Assembly (Singapore). The course culminated with an individual capstone project, and as part of my learning, I wanted to do something related to my favourite pastime.
 
-Please feel free to reach out to me for feedback or suggestions on how I can improve. <br> 
+Please feel free to reach out to me if you have feedback or suggestions on how I can improve. <br> 
 You can connect with me here on GitHub, [LinkedIn](https://www.linkedin.com/in/tankaiguan/), or [Steam](https://steamcommunity.com/profiles/76561198010430483/).
 
 ## **Files and Folders** <br>
