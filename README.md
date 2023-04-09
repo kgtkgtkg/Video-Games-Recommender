@@ -85,8 +85,9 @@ The game recommendations are only as good as the data within the group. With Col
 I have included additional features on the deployed python script to account for a growing list of Steam IDs on the recommender app. However, given that this was a course project, I will not be maintaining an online database or online file for the Steam IDs. <br>
 
 ## **Closing Note** <br>
-This project was done as part the Data Analytics Immersive course with General Assembly (Singapore). The course culminated with an Individual Capstone project, and as part of my learning, I wanted to do something related to my favourite pastime. Please feel free to reach out to me for feedback or suggestions on how I can improve. <br>
+This project was done as part the Data Analytics Immersive course with General Assembly (Singapore). The course culminated with an individual capstone project, and as part of my learning, I wanted to do something related to my favourite pastime.
 
+Please feel free to reach out to me for feedback or suggestions on how I can improve. <br> 
 You can connect with me here on GitHub, [LinkedIn](https://www.linkedin.com/in/tankaiguan/), or [Steam](https://steamcommunity.com/profiles/76561198010430483/).
 
 ## **Files and Folders** <br>
